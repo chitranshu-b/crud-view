@@ -91,10 +91,12 @@ Using It In Your Controllers
 Any controller inheriting from ``AppController`` will automatically implement
 the specified actions loaded int the ``CRUD`` component configuration.
 Therefore, you can just leave your controller code empty!
+We’ll place this new controller in a file called CategoriesController.php inside the src/Controller directory.
 
 .. code-block:: php
 
     <?php
+    // src/Controller/CategoriesController.php
     namespace App\Controller;
 
     class CategoriesController extends AppController
